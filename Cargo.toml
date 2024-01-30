@@ -1,0 +1,12 @@
+[package]
+name = "metal_ml"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+metal = { git = "https://github.com/ivarflakstad/metal-rs", features = ["mps"]}
+rand = "0.8.4"
+nalgebra = "0.32.3"
+
